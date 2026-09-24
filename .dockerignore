@@ -1,0 +1,22 @@
+# Git and local metadata
+.git
+.gitignore
+
+# Dependencies (installed during Docker build)
+node_modules
+**/node_modules
+
+# Secrets and runtime data
+.env
+.env.*
+**/.env
+**/.env.*
+panel-data
+*.log
+*.db
+*.sqlite
+*.sqlite3
+
+# Local backups
+server.backup.js
+server.before-edit.js
